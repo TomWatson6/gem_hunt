@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Gem Hunt</string>
+    <string name="facebook_app_id">291723887929785</string>
+    <string name="twitter_consumer_key">MlQ64bSR3I3nFPE2zY9tZe47r</string>
+    <string name="twitter_consumer_secret">fxUQRJnYxPCbauKcjoeLtesIAXRQ8IfOv0nywlMPBV8kTMqh2e</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_button_text">Sign in</string>
+    <string name="password_action_label">Sign in</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="team_name_hint">Team Name</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="register_button_text">Register</string>
+    <string name="code_hint">Code</string>
+    <string name="team_tracker_delete_text">Delete</string>
+    <string name="team_tracker_edit_text">Edit</string>
+    <string name="congratulations_title">Congratulations</string>
+    <string name="completed_hunt_text">You have successfully completed the treasure hunt!</string>
+    <string name="team_tracker_team_name_hint">Team Name</string>
+    <string name="team_tracker_team_code_hint">Team Code</string>
+    <string name="team_tracker_starting_location_index_hint">Starting Location Index</string>
+    <string name="edit_treasure_hunt_title_hint">Treasure Hunt Title</string>
+    <string name="edit_treasure_hunt_date_hint">Date to set Active</string>
+    <string name="register_phone_number_hint">Phone Number</string>
+    <string name="register_email_address_text">Email Address</string>
+    <string name="tracking_permission_text">During the app, the admin will be able to monitor your progress through the treasure hunt.
+        \n\nThis will involve the admin being able to track your current location, your location data will be wiped from the database once you logout of the app.
+        \n\nThey will no longer be able to track you after this point. Do you agree to allow the admin to use your location data?</string>
+
+    <string name="text_with_paragraphs1">
+        The team tracker is where all of the participating teams and their progress are listed.
+        \n\nHere, you can edit and manage all participating teams.
+    </string>
+    <string name="text_with_paragraphs2">
+        To delete multiple teams at once, simply press SELECT and select the teams you wish to delete.
+        \n\nThen press DELETE.
+    </string>
+    <string name="t3">
+        To add a new team, select ADD TEAM and fill in the relevant information.
+
+    </string>
+    <string name="t4">
+        The admin map tracks the location of all teams in addition to the locations of all gems that are to found.
+        \n\nThe small blue circles represent the participating teams.
+        \n\nThe purple gems indicate where the unfound treasure lies.
+
+    </string>
+
+    <string name="t5">
+        By pressing \'management\', you are able to see the current treasure hunts that have been made and are taking place.
+
+    </string>
+
+    <string name="t6">
+        To create a treasure hunt, simply press CREATE NEW TREASURE HUNT and provide a title and the date you would like the hunt to go live.
+        \n\nThen select ADD.
+    </string>
+    <string name="t7">
+        To be able to add treasure hunt locations, hold down where you would like to place the a new gem location.
+    </string>
+    <string name="t8">
+      Provide the location with a title, an index and a short description.
+    </string>
+    <string name="t9">
+      To edit a gem location, hold down the gem you would like to edit and change the information as desired.
+    </string>
+    <string name="t10">
+      On the management page, you can view the QR codes assigned to each treasure hunt.
+        \n\nHold down one of the treasure hunts, and you will be presented with the option to edit a hunt, view its QR codes or delete it.
+    </string>
+    <string name="t11">
+      If you select QR Codes, you will be able to see the names of that treasure hunt\'s gem locations and view their QR codes.
+    </string>
+    <string name="team_tracker_preferences_text">Preferences</string>
+
+
+</resources>

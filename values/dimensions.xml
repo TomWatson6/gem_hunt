@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_margin">5dip</dimen>
+    <dimen name="map_student_location_size">12dp</dimen>
+    <dimen name="login_action_bar_height">200dp</dimen>
+    <dimen name="button_height">40dip</dimen>
+</resources>

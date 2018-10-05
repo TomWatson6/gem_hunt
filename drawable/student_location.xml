@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/inner_circle">
+
+        <shape
+            android:shape="oval"
+            android:innerRadius="10dp"
+            android:useLevel="true">
+
+            <gradient
+                android:startColor="#097CC7"
+                android:endColor="#097CC7"
+                android:centerColor="#097CC7"
+                android:type="sweep"/>
+
+            <stroke android:width="4px"
+                android:color="#BAFCFF" />
+
+        </shape>
+
+    </item>
+</layer-list>

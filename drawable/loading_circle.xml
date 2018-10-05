@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/secondaryProgress">
+
+        <layer-list>
+            <item android:id="@+id/secondary_outer_ring">
+
+                <shape
+                    android:innerRadius="132dp"
+                    android:shape="ring"
+                    android:thickness="8dp"
+                    android:useLevel="true">
+
+                    <gradient
+                        android:centerColor="#FCE7EB"
+                        android:endColor="#FCE7EB"
+                        android:startColor="#FCE7EB"
+                        android:type="sweep" />
+
+                </shape>
+
+            </item>
+
+            <item android:id="@+id/secondary_secondary_ring">
+
+                <shape
+                    android:innerRadius="102dp"
+                    android:shape="ring"
+                    android:thickness="24dp"
+                    android:useLevel="true">
+
+                    <gradient
+                        android:centerColor="#FCE7EB"
+                        android:endColor="#FCE7EB"
+                        android:startColor="#FCE7EB"
+                        android:type="sweep" />
+
+                </shape>
+
+            </item>
+
+            <item android:id="@+id/secondary_primary_ring">
+
+                <shape
+                    android:innerRadius="110dp"
+                    android:shape="ring"
+                    android:thickness="8dp"
+                    android:useLevel="true">
+
+                    <gradient
+                        android:centerColor="#E51837"
+                        android:endColor="#E51837"
+                        android:startColor="#E51837"
+                        android:type="sweep" />
+
+                </shape>
+
+            </item>
+        </layer-list>
+
+    </item>
+
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="270"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="270">
+
+            <layer-list>
+                <item android:id="@+id/outer_ring">
+
+                    <shape
+                        android:innerRadius="132dp"
+                        android:shape="ring"
+                        android:thickness="8dp"
+                        android:useLevel="true">
+
+
+                        <rotate
+                            android:fromDegrees="0"
+                            android:pivotX="50%"
+                            android:pivotY="50%"
+                            android:toDegrees="360" />
+
+                        <gradient
+                            android:centerColor="#E6F2F9"
+                            android:endColor="#E6F2F9"
+                            android:startColor="#E6F2F9"
+                            android:type="sweep" />
+
+                    </shape>
+
+                </item>
+
+                <item android:id="@+id/secondary_ring">
+
+                    <shape
+                        android:innerRadius="102dp"
+                        android:shape="ring"
+                        android:thickness="24dp"
+                        android:useLevel="true">
+
+
+                        <rotate
+                            android:fromDegrees="0"
+                            android:pivotX="50%"
+                            android:pivotY="50%"
+                            android:toDegrees="360" />
+
+                        <gradient
+                            android:centerColor="#E6F2F9"
+                            android:endColor="#E6F2F9"
+                            android:startColor="#E6F2F9"
+                            android:type="sweep" />
+
+                    </shape>
+
+                </item>
+
+                <item android:id="@+id/primary_ring">
+
+                    <shape
+                        android:innerRadius="110dp"
+                        android:shape="ring"
+                        android:thickness="8dp"
+                        android:useLevel="true">
+
+
+                        <rotate
+                            android:fromDegrees="0"
+                            android:pivotX="50%"
+                            android:pivotY="50%"
+                            android:toDegrees="360" />
+
+                        <gradient
+                            android:centerColor="#097CC7"
+                            android:endColor="#097CC7"
+                            android:startColor="#097CC7"
+                            android:type="sweep" />
+
+                    </shape>
+
+                </item>
+            </layer-list>
+
+        </rotate>
+    </item>
+</layer-list>
